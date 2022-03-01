@@ -1,7 +1,7 @@
 # Android-cert-Install-
 Android Cert install 
 
-
+```
 Create Certificate
 1 - Export Burp certificate to .DER e.g cacert.der
 2 - openssl x509 -inform DER -in cacert.der -out cacert.pem
@@ -16,3 +16,4 @@ Setup Certificate
 5 - mv /sdcard/{cert}.0 /system/etc/security/cacerts/
 6 - chmod 644 /system/etc/security/cacerts/{cert}.0
 7 - reboot
+```
